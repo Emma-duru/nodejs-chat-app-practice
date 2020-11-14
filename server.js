@@ -37,11 +37,4 @@ io.on("connection", (socket) => {
 
   users.push(user_data);
 
-  socket.on("change_name", (name) => {
-    users.map((user) => {
-      if (user.id === socket.id) user.username = name;
-    });
-    console.log(users);
-    io.sockets.emit("change_name", name);
-  });
 });
