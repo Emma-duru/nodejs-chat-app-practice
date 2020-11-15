@@ -1,5 +1,7 @@
 # nodejs-chat-app-practice
-A simple chat app made to practice node.js and socket.io
+A simple chat app made to practice node.js and socket.io  
+
+Website is live at [https://expresschatapp2020.herokuapp.com/](https://expresschatapp2020.herokuapp.com/)
 
 ## Packages used
 * [node.js](https://nodejs.org)
